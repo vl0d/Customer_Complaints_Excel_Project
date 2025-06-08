@@ -1,98 +1,102 @@
 # Consumer Complaints - Excel Dashboard
 
-## Introduction
+## 📌 Introduction
 
-Using Excel, I analyzed a U.S. consumer complaints dataset to uncover patterns in complaint volume, issue type, and company responses. The purpose of this dashboard was to simulate a real-world business case where a **concise, static report** would be delivered to decision-makers who need quick, actionable insights.
+Using Excel, I analyzed a U.S. consumer complaints dataset to uncover patterns in complaint volume, issue types, and company responses. The objective was to simulate a real-world business scenario where a **concise, static report** is delivered to decision-makers who need quick, actionable insights.
 
-Unlike exploratory dashboards filled with filters and slicers, this version focuses on one central finding, delivered with clarity and minimalism—ideal for **executive summaries** and presentations.
+Unlike exploratory dashboards filled with slicers and filters, this version emphasizes **clarity and focus**, presenting a single, well-supported narrative—ideal for **executive summaries** and stakeholder presentations.
 
-## Dashboard File
+## 📁 Dashboard File
 
-Check out the Excel dashboard here:  
+Explore the Excel dashboard here:  
 👉 [Consumer_Complaints_Dashboard.xlsx](https://github.com/user-attachments/files/20644391/Consumer_Complaints_Dashboard.xlsx)
 
+## 🛠️ Excel Skills Used
 
-## Excel Skills Used
-
-This project demonstrates a range of Excel skills including:
-- 🔄 Power Query 
-- 🧮 Power Pivot
-- 🎯 Formulas and functions  
+This project showcases a range of Excel capabilities:
+- 🔄 Power Query  
+- 🧮 Power Pivot  
+- 🎯 Formulas and Functions  
 - 📊 Pivot Tables  
 - ✅ Conditional Formatting  
 - 📈 Data Visualization (Charts and Conditional Formatting)  
 
-## Consumer Complaints Dataset
+## 📂 Dataset Overview
 
-The dataset contains records of consumer complaints submitted to U.S. federal agencies. After cleaning and organizing the data, I focused on key fields relevant to systemic trends:
+The dataset includes consumer complaint records submitted to U.S. federal agencies. After data cleaning and transformation, the analysis focused on key fields:
 
 - Complaint Issue  
 - Company Name  
 - State  
 - Product Type  
 - Date Received  
-- Company Response
-- Submission Method
+- Company Response  
+- Submission Method  
 
-## Dashboard Build
+## 📊 Dashboard Walkthrough
 
-### Evolution of complaints sent, by year
+### ⏳ Evolution of Complaints by Year
 
-In order to find a way of reducing the number of complaints sent, I first needed to find out the total number of complaints.
+To identify ways to reduce complaint volume, I first visualized the total number of complaints submitted over time.
 
 ![evolution](https://github.com/user-attachments/assets/ade759c4-761c-4c6c-839b-5e897a7ac7c1)
 
+---
+
 ### 🧭 Complaint Distribution by Product
 
-Using Pivot Tables and bar charts, I summarized how complaints are distributed **product involved**. This revealed disproportionate volumes in certain product categories, which gave me valuable information : the two top products made the majority of the total complaints sent. This needed further investigation.
+Using Pivot Tables and bar charts, I analyzed how complaints were distributed across products. The results revealed that just two product categories account for the majority of complaints—indicating areas that need closer attention.
 
 ![percentage](https://github.com/user-attachments/assets/264c07cc-374d-4718-97de-a798530d2787)
 
+---
 
-### Finding the weekness
+### 🔍 Identifying Key Issues
 
-This way, I found the four issues, most common among the two products with the most complaints. This way, I made the following statement: if we find a way to reduce the number of complaints sent for these four issues, the total number will reduce drastically.
+Focusing on the two most complained-about products, I identified the four most common issues. Addressing these specific issues could significantly reduce the total number of complaints.
 
 ![complaints](https://github.com/user-attachments/assets/71dab403-c3cb-499c-8933-25a434ef2ee6)
 
-### 🚩 Highlighting another Important Component
+---
 
-Not ony was the number of complaints sent enough a reason for concern, but the majority of them were solved by companies with monetary means, meaning that companies were constantly losing money.
+### 🚩 Monetary Impact
+
+A large portion of complaints resulted in monetary relief from companies—signaling ongoing financial losses. This insight underlines the importance of proactively addressing recurring problems.
 
 ![monetary_relief](https://github.com/user-attachments/assets/1e9ae671-fd85-4473-b5ab-6e7f84d8a241)
 
-### Solution?
+---
 
-The most common submittion method used is the **Web**. This means that most customers use the web in order to solve their problems. Thus, if we communicate relevant information about the most complaint about issues via the web, the number of total complaints will be reduced.
+### 🌐 Submission Method Insight
+
+Most complaints were submitted via the **Web**. This suggests that web-based communication channels could be leveraged to proactively educate customers about frequent issues—potentially reducing future complaints.
 
 ![sent_via](https://github.com/user-attachments/assets/1971af31-e7ca-4ee9-a20f-9d53c19db973)
 
+---
 
 ### 🎯 Why No Slicers or Filters?
 
-The absence of slicers or interactivity was **intentional**. The goal was to simulate a static presentation slide or report—something that executives can understand in under a minute. While being capable of building interactive dashboards, the design priority here was **clarity, not complexity**.
+The absence of interactivity is **intentional**. This dashboard was designed to simulate a static report or slide deck—something decision-makers can grasp in under a minute. While I’m fully capable of building interactive dashboards, here I prioritized **clarity over complexity**.
 
 ## 📊 Estimated Impact
 
-A failure to address the highlighted issue could result in:
+Failing to act on the findings could result in:
+- Reduced consumer trust  
+- Increased regulatory scrutiny  
+- Lost opportunities for service improvement and customer retention  
 
-- Decreased consumer trust in services  
-- Increased regulatory scrutiny on companies with poor complaint handling  
-- Missed opportunities for service improvement and customer retention  
-
-The dashboard proposes focusing corrective action on the most frequently reported issue within the most affected product category.
+The dashboard proposes targeting high-volume issues within key product categories to maximize impact.
 
 ## ✅ Conclusion
 
 Through this project, I was able to:
 
-- Build a clean Excel pipeline from raw data to insights  
-- Apply analytical reasoning to uncover a recurring issue  
-- Use effective visual storytelling in a static dashboard format
+- Build a complete Excel pipeline from raw data to insights  
+- Apply analytical reasoning to uncover actionable trends  
+- Create a visually clear and informative static dashboard  
 
-This project showcases how even simple Excel tools, used intentionally, can provide **clear and actionable insights** from messy real-world data.
-
-
+This project demonstrates how well-used Excel tools can turn real-world, messy data into **clear and strategic business insights**.
 
 
 
