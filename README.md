@@ -39,7 +39,7 @@ The dataset includes consumer complaint records submitted to U.S. federal agenci
 
 To identify ways to reduce complaint volume, I first visualized the total number of complaints submitted over time.
 
-<img src="https://github.com/user-attachments/assets/ade759c4-761c-4c6c-839b-5e897a7ac7c1" width="800"/>
+<img src="https://github.com/user-attachments/assets/ade759c4-761c-4c6c-839b-5e897a7ac7c1" width="700"/>
 
 
 ---
@@ -48,7 +48,7 @@ To identify ways to reduce complaint volume, I first visualized the total number
 
 Using Pivot Tables and bar charts, I analyzed how complaints were distributed across products. The results revealed that just two product categories account for the majority of complaints—indicating areas that need closer attention.
 
-<img src="https://github.com/user-attachments/assets/264c07cc-374d-4718-97de-a798530d2787" width="800"/>
+<img src="https://github.com/user-attachments/assets/264c07cc-374d-4718-97de-a798530d2787" width="700"/>
 
 ---
 
@@ -56,7 +56,7 @@ Using Pivot Tables and bar charts, I analyzed how complaints were distributed ac
 
 Focusing on the two most complained-about products, I identified the four most common issues. Addressing these specific issues could significantly reduce the total number of complaints.
 
-<img src="https://github.com/user-attachments/assets/71dab403-c3cb-499c-8933-25a434ef2ee6" width="800"/>
+<img src="https://github.com/user-attachments/assets/71dab403-c3cb-499c-8933-25a434ef2ee6" width="700"/>
 
 ---
 
@@ -64,7 +64,7 @@ Focusing on the two most complained-about products, I identified the four most c
 
 A large portion of complaints resulted in monetary relief from companies—signaling ongoing financial losses. This insight underlines the importance of proactively addressing recurring problems.
 
-<img src="https://github.com/user-attachments/assets/1e9ae671-fd85-4473-b5ab-6e7f84d8a241" width="800"/>
+<img src="https://github.com/user-attachments/assets/1e9ae671-fd85-4473-b5ab-6e7f84d8a241" width="700"/>
 
 ---
 
@@ -72,7 +72,7 @@ A large portion of complaints resulted in monetary relief from companies—signa
 
 Most complaints were submitted via the **Web**. This suggests that web-based communication channels could be leveraged to proactively educate customers about frequent issues—potentially reducing future complaints.
 
-<img src="https://github.com/user-attachments/assets/1971af31-e7ca-4ee9-a20f-9d53c19db973" width="800"/>
+<img src="https://github.com/user-attachments/assets/1971af31-e7ca-4ee9-a20f-9d53c19db973" width="700"/>
 
 ---
 
